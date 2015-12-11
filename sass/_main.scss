@@ -1,11 +1,100 @@
 // Normally mainpage styles
- 
+.wrapper {
+	max-width: 1656px;
+	width: auto;
+}
+.container {
+	width: 1400px;
+}
+$font_r: 'Utsaah';
+$color_light: #FEFEFE;
+$color_dark: #333333;
+$color: #00A6DB;
+body {
+	font-family: $font_r;
+	font-size: 28px;
+}
  /*----------header----------*/
 
  .header{
 	@include povh('');
+	background: url(../img/top_block_bg.jpg) no-repeat center top;
+	height: 930px;
+	.container {
+		padding-top: 100px;
+	}
+	.btn_wrap {
+		clear: both;
+		margin-left: 105px;
+		float: left;
+		margin-top: -15px;
+	}
  }
-	
+		.logo {
+			margin-left: 20px;
+			float: left;
+		}
+		.top_nav {
+			float: right;
+			margin-top: 20px;
+			margin-bottom: 115px;
+			a {
+				font-size: 37px;
+				color: $color_light;
+				text-transform: uppercase;
+				text-decoration: none;
+				&:hover {
+					text-decoration: underline;
+				}
+			}
+			li {
+				float: left;
+				margin-left: 80px;
+			}
+		}
+		.about_list {
+			clear: both;
+			float: left;
+			margin-top: 50px;
+			li {
+				color: $color_light;
+				margin-bottom: 25px;
+				padding-left: 30px;
+				background: url(../img/icons/white-marker.png) no-repeat left 8px;
+				font-size: 42px;
+				line-height: 1;
+			}
+		}
+		.video_wrap {
+			float: right;
+		}
+		.btn_wrap {
+			padding: 10px;
+			border-radius: 25px;
+			background: transparent;
+			border: 2px solid #FF8A24;
+			display: inline-block;
+		}
+			.btn_style{
+				color: #fff;
+				font-size: 42px;
+				font-weight: bold;
+				padding: 20px 50px;
+				background: #FF8A24;
+				border-radius: 20px;
+			}
+		.arrow_down {
+			position: absolute;
+	    bottom: 45px;
+	    margin: 0 auto;
+	    display: block;
+	    left: 0;
+	    right: 0;
+	    cursor: pointer;
+	    width: 37px;
+	    background: none;
+		}
+
 /*----------end-header----------*/	
 
 
