@@ -290,6 +290,46 @@ p {
 
 //end questions_wrap
 
+
+// story_wrap
+
+.story_wrap {
+	padding-bottom: 70px;
+	margin-bottom: 80px;
+	border-bottom: 2px solid #00A6DB;
+	overflow: hidden;
+	.title {
+		margin-bottom: 50px;
+	}
+}
+	.story_content {
+		max-width: 790px;
+		margin-right: 118px;
+		float: left;
+	}
+	.story_user {
+		display: inline-block;
+		margin-left: 65px;
+		text-align: center;
+	}
+	.story_user_photo {
+		width: 167px;
+		height: 167px;
+		border-radius: 100px;
+		overflow: hidden;
+		margin-bottom: 20px;
+		border: 6px solid $color;
+		img {
+			max-width: 100%;
+			height: auto;
+		}
+	}
+	.story_user_name {
+		font-size: 27px;
+	}
+
+//end story_wrap
+
 /*----------end main----------*/	
 
 	

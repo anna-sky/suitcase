@@ -177,6 +177,18 @@ p { color: #333333; font-size: 28px; line-height: 1; margin-bottom: 20px; }
 
 .questions_title { font-size: 47px; color: #00A6DB; font-weight: bold; margin-bottom: 10px; margin-bottom: 40px; line-height: 0.2; }
 
+.story_wrap { padding-bottom: 70px; margin-bottom: 80px; border-bottom: 2px solid #00A6DB; overflow: hidden; }
+.story_wrap .title { margin-bottom: 50px; }
+
+.story_content { max-width: 790px; margin-right: 118px; float: left; }
+
+.story_user { display: inline-block; margin-left: 65px; text-align: center; }
+
+.story_user_photo { width: 167px; height: 167px; border-radius: 100px; overflow: hidden; margin-bottom: 20px; border: 6px solid #00A6DB; }
+.story_user_photo img { max-width: 100%; height: auto; }
+
+.story_user_name { font-size: 27px; }
+
 /*----------end main----------*/
 /*----------footer----------*/
 .footer { position: relative; overflow: hidden; }
