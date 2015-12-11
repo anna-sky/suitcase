@@ -189,6 +189,19 @@ p { color: #333333; font-size: 28px; line-height: 1; margin-bottom: 20px; }
 
 .story_user_name { font-size: 27px; }
 
+.pricing_wrap { padding-bottom: 90px; }
+.pricing_wrap .title { margin-bottom: 30px; text-align: center; }
+
+.pricing_block { position: relative; margin-bottom: 30px; }
+.pricing_block button { color: #fff; font-weight: bold; font-size: 38px; padding: 40px 30px 35px; background: #F58634; position: absolute; right: 0; top: 31px; z-index: 3; }
+
+.pricing_inr { position: absolute; left: 0; top: 0; width: 167px; height: 167px; border-radius: 100px; border: 6px solid #00A6DB; position: relative; background: #fff; z-index: 2; }
+.pricing_inr span { position: absolute; font-size: 72px; color: #00A6DB; font-weight: bold; line-height: 0.7; top: 40px; left: 2px; text-align: center; }
+
+.pricing_list { position: absolute; z-index: 1; top: 31px; left: 145px; background: #0098DA; padding: 30px 42px 20px; }
+.pricing_list li { display: inline-block; max-width: 236px; vertical-align: top; text-align: center; }
+.pricing_list p { font-size: 35px; color: #fff; padding-left: 25px; display: inline; margin-bottom: 0; background: url(../img/icons/white-marker.png) no-repeat left 6px; }
+
 /*----------end main----------*/
 /*----------footer----------*/
 .footer { position: relative; overflow: hidden; }
