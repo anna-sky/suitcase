@@ -13,6 +13,8 @@ $color: #00A6DB;
 body {
 	font-family: $font_r;
 	font-size: 28px;
+	color: $color_dark;
+	line-height: 1.2;
 }
  /*----------header----------*/
 
@@ -20,6 +22,7 @@ body {
 	@include povh('');
 	background: url(../img/top_block_bg.jpg) no-repeat center top;
 	height: 930px;
+	margin-bottom: 70px;
 	.container {
 		padding-top: 100px;
 	}
@@ -103,6 +106,35 @@ body {
  .main{
 	@include povh('');
  }
+
+//about_icons
+.about_icons {
+	text-align: center;
+	padding-bottom: 60px;
+	border-bottom: 2px solid #00A6DB;
+	li {
+		width: 22%;
+		margin-right: 3%;
+		display: inline-block;
+		vertical-align: top;
+		&:last-child{
+			margin-right: 0;
+		}
+	}
+	img {
+		margin-bottom: 30px;
+	}
+	strong {
+		color: $color;
+		font-size: 34px;
+		margin-bottom: 15px;
+		display: block;
+	}
+	p {
+		text-align: left;
+	}
+}
+//end about_icons
 
 /*----------end main----------*/	
 

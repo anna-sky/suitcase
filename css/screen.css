@@ -97,10 +97,10 @@ textarea { height: 90px; padding-top: 5px; }
 
 .container { width: 1400px; }
 
-body { font-family: "Utsaah"; font-size: 28px; }
+body { font-family: "Utsaah"; font-size: 28px; color: #333333; line-height: 1.2; }
 
 /*----------header----------*/
-.header { position: relative; overflow: hidden; background: url(../img/top_block_bg.jpg) no-repeat center top; height: 930px; }
+.header { position: relative; overflow: hidden; background: url(../img/top_block_bg.jpg) no-repeat center top; height: 930px; margin-bottom: 70px; }
 .header .container { padding-top: 100px; }
 .header .btn_wrap { clear: both; margin-left: 105px; float: left; margin-top: -15px; }
 
@@ -125,6 +125,13 @@ body { font-family: "Utsaah"; font-size: 28px; }
 /*----------end-header----------*/
 /*----------main----------*/
 .main { position: relative; overflow: hidden; }
+
+.about_icons { text-align: center; padding-bottom: 60px; border-bottom: 2px solid #00A6DB; }
+.about_icons li { width: 22%; margin-right: 3%; display: inline-block; vertical-align: top; }
+.about_icons li:last-child { margin-right: 0; }
+.about_icons img { margin-bottom: 30px; }
+.about_icons strong { color: #00A6DB; font-size: 34px; margin-bottom: 15px; display: block; }
+.about_icons p { text-align: left; }
 
 /*----------end main----------*/
 /*----------footer----------*/
