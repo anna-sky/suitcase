@@ -15,3 +15,9 @@
 @include iphone5 {
 
 } 
+
+@media screen and (max-width: 1440px) {
+  .container {
+  	width: 96%;
+  }
+}

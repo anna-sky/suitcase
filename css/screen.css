@@ -146,7 +146,7 @@ p { color: #333333; font-size: 28px; line-height: 1; margin-bottom: 20px; }
 
 .product_preview_wrap { padding-bottom: 90px; margin-bottom: 130px; border-bottom: 2px solid #00A6DB; }
 .product_preview_wrap .title { margin-bottom: 100px; }
-.product_preview_wrap li { display: inline-block; margin-right: 27px; margin-bottom: 27px; }
+.product_preview_wrap li { display: inline-block; margin-right: 25px; margin-bottom: 27px; }
 .product_preview_wrap li:last-child { margin-right: 0; }
 
 .product_img { width: 251px; height: 249px; border: 2px solid #00A6DB; overflow: hidden; }
@@ -180,7 +180,7 @@ p { color: #333333; font-size: 28px; line-height: 1; margin-bottom: 20px; }
 .story_wrap { padding-bottom: 70px; margin-bottom: 80px; border-bottom: 2px solid #00A6DB; overflow: hidden; }
 .story_wrap .title { margin-bottom: 50px; }
 
-.story_content { max-width: 790px; margin-right: 118px; float: left; }
+.story_content { max-width: 790px; margin-right: 110px; float: left; }
 
 .story_user { display: inline-block; margin-left: 65px; text-align: center; }
 
@@ -193,7 +193,7 @@ p { color: #333333; font-size: 28px; line-height: 1; margin-bottom: 20px; }
 .pricing_wrap .title { margin-bottom: 30px; text-align: center; }
 
 .pricing_block { position: relative; margin-bottom: 30px; }
-.pricing_block button { color: #fff; font-weight: bold; font-size: 38px; padding: 40px 30px 35px; background: #F58634; position: absolute; right: 0; top: 31px; z-index: 3; }
+.pricing_block button { color: #fff; font-weight: bold; font-size: 38px; padding: 40px 30px 37px; background: #F58634; position: absolute; right: 0; top: 31px; z-index: 3; }
 
 .pricing_inr { position: absolute; left: 0; top: 0; width: 167px; height: 167px; border-radius: 100px; border: 6px solid #00A6DB; position: relative; background: #fff; z-index: 2; }
 .pricing_inr span { position: absolute; font-size: 72px; color: #00A6DB; font-weight: bold; line-height: 0.7; top: 40px; left: 2px; text-align: center; }
@@ -207,3 +207,4 @@ p { color: #333333; font-size: 28px; line-height: 1; margin-bottom: 20px; }
 .footer { position: relative; overflow: hidden; }
 
 /*----------end footer----------*/
+@media screen and (max-width: 1440px) { .container { width: 96%; } }
