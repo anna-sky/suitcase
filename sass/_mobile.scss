@@ -17,7 +17,366 @@
 } 
 
 @media screen and (max-width: 1440px) {
+	.header {
+		height: 800px;
+	}
   .container {
   	width: 96%;
+  }
+  .top_nav li {
+  	margin-left: 50px;
+  }
+  .top_nav a {
+    font-size: 34px;
+  }
+  .about_list li {
+    margin-bottom: 15px;
+    font-size: 35px;
+  }
+  .video_wrap {
+  	width: 460px;
+  	height: 306px;
+  }
+  .header .btn_wrap {
+    clear: both;
+    margin-left: 55px;
+    float: left;
+    margin-top: 0;
+}
+.btn_style {
+	font-size: 25px;
+}
+.product_preview_wrap li {
+	margin-right: 24px;
+}
+.questions_block {
+  max-width: 525px;
+ }
+.story_content {
+    max-width: 580px;
+    margin-right: 60px;
+  }
+  .pricing_list {
+  	top: 43px;
+  }
+  .pricing_list li {
+    max-width: 180px;
+  }
+  .pricing_list p {
+    font-size: 24px;
+  }
+.pricing_block button {
+    font-size: 30px;
+    padding: 32px 30px;
+    top: 43px;
+}
+}
+@media screen and (max-width: 1199px) {
+	.top_nav li {
+		margin-left: 40px;
+	}
+	.top_nav a {
+		font-size: 28px;
+	}
+	.about_list {
+		width: 50%;
+	}
+	.about_list li {
+		font-size: 32px;
+	}
+	.how_works_inner {
+    max-width: 460px;
+}
+.how_works_wrap {
+    padding-bottom: 40px;
+    margin-bottom: 60px;
+    }
+    .about_icons_wrap {
+    padding-bottom: 40px;
+    margin-bottom: 70px;
+}
+.product_preview_wrap .title {
+  margin-bottom: 60px;
+  margin-left: 100px;
+}
+.product_preview_wrap {
+    padding-bottom: 50px;
+    margin-bottom: 70px;
+    }
+    .installation_wrap .title {
+    margin-bottom: 50px;
+}
+.installation_inner {
+    width: 90%;
+    }
+    .installation_wrap {
+    padding-bottom: 70px;
+    margin-bottom: 70px;
+  }
+.questions_wrap {
+    padding-bottom: 10px;
+    margin-bottom: 70px;
+    }
+.questions_block {
+    max-width: 430px;
+}
+  .questions_wrap .title {
+    margin-bottom: 60px;
+}
+.story_content {
+    max-width: 440px;
+    margin-right: 0;
+}
+.story_wrap {
+    padding-bottom: 50px;
+    margin-bottom: 60px;
+    }
+.pricing_inr {
+    width: 130px;
+    height: 130px;
+  }
+  .pricing_inr span {
+    font-size: 50px;
+    top: 35px;
+  }
+  .pricing_list {
+    top: 20px;
+    left: 110px;
+  }
+  .pricing_block button {
+    position: relative;
+    margin: 0 auto;
+    display: block;
+}
+.pricing_block {
+	margin-bottom: 50px;
+}
+.pricing_list p {
+    background: url(../img/icons/white-marker.png) no-repeat left 4px;
+}
+}
+
+@media screen and (max-width: 1023px) { 
+	.header {
+		padding-bottom: 110px;
+		 height: auto;
+    background-size: cover;
+	}
+	.header .container {
+    padding-top: 70px;
+}
+	.logo {
+  margin: 0 auto 30px;
+  display: block;
+  width: 300px;
+  float: none;
+}
+.top_nav {
+  float: none;
+  text-align: center;
+  margin-bottom: 30px;
+  }
+.top_nav li {
+    display: inline-block;
+    float: none;
+    margin: 5px 15px;
+  }
+  .about_list {
+		width: 100%;
+		float: none;
+		margin-bottom: 30px;
+}
+.header .video_wrap {
+    float: none;
+    margin: 0 auto 50px;
+    clear: both;
+}
+.header .btn_wrap {
+	float: none;
+	width: 308px;
+	margin: 0 auto;
+	display: block;
+}
+.about_icons_wrap li {
+    width: 45%;
+    margin-bottom: 30px;
+    }
+    .about_icons_wrap {
+    padding-bottom: 20px;
+}
+.how_works_wrap .video_wrap {
+	float: none;
+	margin: 0 auto 50px;
+}
+.how_works_inner {
+    max-width: none;
+}
+.product_preview_wrap .title {
+    margin-bottom: 40px;
+    margin-left: 0;
+    text-align: center;
+}
+.product_preview_wrap ul {
+	text-align: center;
+}
+.installation_content {
+	max-width: 430px;
+}
+.questions_block {
+    max-width: 100%;
+}
+.story_user {
+	margin-bottom: 25px;
+}
+.story_user_wrap {
+	max-width: 250px;
+}
+.pricing_list {
+	position: static;
+	margin-bottom: 30px;
+}
+.pricing_inr {
+    margin: 0 auto;
+    margin-bottom: 30px;
+}
+.pricing_list li {
+    max-width: none;
+    margin-right: 15px;
+    margin-bottom: 10px;
+}
+.pricing_list {
+	margin-bottom: 0;
+}
+.pricing_block button {
+    padding: 20px 30px 20px;
+}
+.pricing_block {
+    margin-bottom: 60px;
+}
+.pricing_wrap {
+    padding-bottom: 50px;
+}
+.pricing_list {
+    margin-bottom: 0;
+    width: auto;
+    padding: 20px 15px;
+    left: 0;
+    text-align: left;
+}
+.pricing_list li {
+	text-align: left;
+}
+
+}
+
+@media screen and (max-width: 799px) { 
+.top_nav a {
+    font-size: 25px;
+}
+.about_list li {
+    font-size: 28px;
+}
+.product_preview_wrap li {
+	margin: 10px;
+}
+.installation_wrap .title {
+    margin-bottom: 30px;
+}
+.installation_img {
+    float: none;
+    text-align: center;
+}
+.story_user_wrap {
+	max-width: none;
+	float: none;
+}
+.story_content {
+    float: none;
+    margin-bottom: 40px;
+    max-width: none;
+}
+.story_user {
+    margin: 0 20px;
+}
+}
+@media screen and (max-width: 599px) { 
+	.title {
+		font-size: 65px;
+		text-align: center;
+	}
+.top_nav li {
+	margin: 5px 10px;
+}
+.top_nav a {
+    font-size: 23px;
+}
+.about_icons_wrap li {
+    width: 100%;
+
+    }
+.logo {
+	width: 96%;
+	img {
+		max-width: 100%;
+		height: auto;
+	}
+}
+.video_wrap {
+    width: 100%;
+    height: auto;
+    min-height: 200px;
+}
+.btn_style {
+    font-size: 20px;
+}
+.header .btn_wrap {
+       width: 188px;
+}
+.story_user {
+    margin: 0 auto 30px;
+    display: block;
+    text-align: center;
+}
+.story_user_photo {
+    margin: 0 auto 20px;
+}
+}
+
+@media screen and (max-width: 479px) { 
+	.container {
+    width: 90%;
+}
+.title {
+  font-size: 45px;
+  }
+	.btn_style {
+		padding: 20px;
+	}
+	.video_wrap {
+		min-height: 100px;
+		margin: 0 auto 30px;
+	}
+	.header .video_wrap {
+		margin: 0 auto 30px;
+	}
+	p {
+		font-size: 25px;
+	}
+	.about_list li {
+    font-size: 25px;
+}
+.product_img {
+    width: 180px;
+    height: 178px;
+    }
+    .installation_title {
+    font-size: 30px;
+  }
+  .installation_img img {
+  	max-width: 100%;
+  	height: auto;
+  }
+  .questions_title {
+    font-size: 35px;
   }
 }

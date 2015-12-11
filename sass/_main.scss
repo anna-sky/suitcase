@@ -14,7 +14,7 @@ body {
 	font-family: $font_r;
 	font-size: 28px;
 	color: $color_dark;
-	line-height: 1;
+	line-height: 0.8;
 }
 p {
 	color: $color_dark;
@@ -27,7 +27,7 @@ p {
 	font-size: 75px;
 	margin-bottom: 15px;
 	font-weight: bold;
-	line-height: 1;
+	line-height: 0.7;
 }
  /*----------header----------*/
 
@@ -87,6 +87,10 @@ p {
 		.video_wrap {
 			width: 604px;
 			height: 402px;
+			img {
+				max-width:100%;
+				height: auto;
+			}
 			iframe{
 				width: 100%;
 				height: 100%;
@@ -172,6 +176,9 @@ p {
 	.how_works_inner {
 		float: right;
 		max-width: 530px;
+		.title {
+			text-align: center;
+		}
 	}
 
 //end how_works_wrap
@@ -184,6 +191,7 @@ p {
 	border-bottom: 2px solid #00A6DB;
 	.title{
 		margin-bottom: 100px;
+		margin-left: 200px;
 	}
 	li {
 		display: inline-block;
@@ -217,6 +225,10 @@ p {
 		margin-bottom: 90px;
 	}
 }
+.installation_inner {
+	width: 80%;
+	margin: 0 auto;
+}
 	.installation_list {
 		margin-bottom: 20px;
 	}
@@ -229,10 +241,12 @@ p {
 			color: $color;
 			font-weight: bold;
 			padding-top: 30px;
+			margin-bottom: 20px;
 		}
 		.installation_content {
 			float: left;
 			clear: both;
+			max-width: 540px;
 		}
 		.installation_img {
 			float: right;
@@ -259,7 +273,7 @@ p {
 .questions_block {
 	max-width: 550px;
 	display: inline-block;
-	margin: 0 10px;
+	margin: 0 12px;
 	li {
 		padding-bottom: 58px;
 		padding-left: 30px;
@@ -272,7 +286,7 @@ p {
 			height: 25px;
 			position: absolute;
 			left: -12px;
-			top: -13px;
+			top: -1px;
 		}
 		&:last-child {
 			border: none;
@@ -284,8 +298,8 @@ p {
 		color: $color;
 		font-weight: bold;
 		margin-bottom: 10px;
-		margin-bottom: 40px;
-		line-height: 0.2;
+		margin-bottom: 20px;
+		line-height: 0.8;
 	}
 
 //end questions_wrap
@@ -304,8 +318,10 @@ p {
 }
 	.story_content {
 		max-width: 790px;
-		margin-right: 110px;
 		float: left;
+	}
+	.story_user_wrap {
+		float: right;
 	}
 	.story_user {
 		display: inline-block;
@@ -356,14 +372,13 @@ p {
 	}
 
 	.pricing_inr {
-		position: absolute;
+		position: relative;
 		left: 0;
 		top: 0;
 		width: 167px;
 		height: 167px;
 		border-radius: 100px;
 		border: 6px solid $color;
-		position: relative;
 		background: #fff;
 		z-index: 2;
 		span {
@@ -384,6 +399,8 @@ p {
     left: 145px;
     background: #0098DA;
     padding: 30px 42px 20px;
+    width: 100%;
+    display: block;
 		li {
 			display: inline-block;
 			max-width: 236px;
