@@ -144,6 +144,14 @@ p { color: #333333; font-size: 28px; line-height: 1; margin-bottom: 20px; }
 
 .how_works_inner { float: right; max-width: 530px; }
 
+.product_preview { padding-bottom: 90px; margin-bottom: 130px; border-bottom: 2px solid #00A6DB; }
+.product_preview .title { margin-bottom: 100px; }
+.product_preview li { display: inline-block; margin-right: 27px; margin-bottom: 27px; }
+.product_preview li:last-child { margin-right: 0; }
+
+.product_img { width: 251px; height: 249px; border: 2px solid #00A6DB; overflow: hidden; }
+.product_img img { max-width: 100%; height: auto; }
+
 /*----------end main----------*/
 /*----------footer----------*/
 .footer { position: relative; overflow: hidden; }
