@@ -132,25 +132,40 @@ p { color: #333333; font-size: 28px; line-height: 1; margin-bottom: 20px; }
 /*----------main----------*/
 .main { position: relative; overflow: hidden; }
 
-.about_icons { text-align: center; padding-bottom: 60px; border-bottom: 2px solid #00A6DB; margin-bottom: 85px; }
-.about_icons li { width: 22%; margin-right: 3%; display: inline-block; vertical-align: top; }
-.about_icons li:last-child { margin-right: 0; }
-.about_icons img { margin-bottom: 30px; }
-.about_icons strong { color: #00A6DB; font-size: 34px; margin-bottom: 15px; display: block; }
-.about_icons p { text-align: left; }
+.about_icons_wrap { text-align: center; padding-bottom: 60px; border-bottom: 2px solid #00A6DB; margin-bottom: 85px; }
+.about_icons_wrap li { width: 22%; margin-right: 3%; display: inline-block; vertical-align: top; }
+.about_icons_wrap li:last-child { margin-right: 0; }
+.about_icons_wrap img { margin-bottom: 30px; }
+.about_icons_wrap strong { color: #00A6DB; font-size: 34px; margin-bottom: 15px; display: block; }
+.about_icons_wrap p { text-align: left; }
 
 .how_works_wrap { padding-bottom: 100px; margin-bottom: 90px; border-bottom: 2px solid #00A6DB; overflow: hidden; }
 .how_works_wrap .video_wrap { float: left; margin-top: 20px; }
 
 .how_works_inner { float: right; max-width: 530px; }
 
-.product_preview { padding-bottom: 90px; margin-bottom: 130px; border-bottom: 2px solid #00A6DB; }
-.product_preview .title { margin-bottom: 100px; }
-.product_preview li { display: inline-block; margin-right: 27px; margin-bottom: 27px; }
-.product_preview li:last-child { margin-right: 0; }
+.product_preview_wrap { padding-bottom: 90px; margin-bottom: 130px; border-bottom: 2px solid #00A6DB; }
+.product_preview_wrap .title { margin-bottom: 100px; }
+.product_preview_wrap li { display: inline-block; margin-right: 27px; margin-bottom: 27px; }
+.product_preview_wrap li:last-child { margin-right: 0; }
 
 .product_img { width: 251px; height: 249px; border: 2px solid #00A6DB; overflow: hidden; }
 .product_img img { max-width: 100%; height: auto; }
+
+.installation_wrap { padding-bottom: 90px; margin-bottom: 130px; border-bottom: 2px solid #00A6DB; }
+.installation_wrap .title { margin-bottom: 90px; }
+
+.installation_list { margin-bottom: 20px; }
+
+.installation_block { margin-bottom: 30px; overflow: hidden; }
+
+.installation_title { font-size: 41px; color: #00A6DB; font-weight: bold; padding-top: 30px; }
+
+.installation_content { float: left; clear: both; }
+
+.installation_img { float: right; }
+
+.installation_conclusion { font-size: 52px; font-weight: bold; color: #00A6DB; }
 
 /*----------end main----------*/
 /*----------footer----------*/

@@ -128,8 +128,8 @@ p {
 	@include povh('');
  }
 
-//about_icons
-.about_icons {
+//about_icons_wrap
+.about_icons_wrap {
 	text-align: center;
 	padding-bottom: 60px;
 	border-bottom: 2px solid #00A6DB;
@@ -156,7 +156,7 @@ p {
 		text-align: left;
 	}
 }
-//end about_icons
+//end about_icons_wrap
 
 //how_works_wrap
 .how_works_wrap {
@@ -176,9 +176,9 @@ p {
 
 //end how_works_wrap
 
-//product_preview
+//product_preview_wrap
 
-.product_preview {
+.product_preview_wrap {
 	padding-bottom: 90px;
 	margin-bottom: 130px;
 	border-bottom: 2px solid #00A6DB;
@@ -205,7 +205,44 @@ p {
 		}
 	}
 
-//end product_preview
+//end product_preview_wrap
+
+//installation_wrap
+
+.installation_wrap {
+	padding-bottom: 90px;
+	margin-bottom: 130px;
+	border-bottom: 2px solid #00A6DB;
+	.title {
+		margin-bottom: 90px;
+	}
+}
+	.installation_list {
+		margin-bottom: 20px;
+	}
+		.installation_block {
+			margin-bottom: 30px;
+			overflow: hidden;
+		}
+		.installation_title {
+			font-size: 41px;
+			color: $color;
+			font-weight: bold;
+			padding-top: 30px;
+		}
+		.installation_content {
+			float: left;
+			clear: both;
+		}
+		.installation_img {
+			float: right;
+		}
+		.installation_conclusion {
+			font-size: 52px;
+			font-weight: bold;
+			color: $color;
+		}
+//end installation_wrap
 
 /*----------end main----------*/	
 
