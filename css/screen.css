@@ -97,12 +97,17 @@ textarea { height: 90px; padding-top: 5px; }
 
 .container { width: 1400px; }
 
-body { font-family: "Utsaah"; font-size: 28px; color: #333333; line-height: 1.2; }
+body { font-family: "Utsaah"; font-size: 28px; color: #333333; line-height: 1; }
+
+p { color: #333333; font-size: 28px; line-height: 1; margin-bottom: 20px; }
+
+.title { color: #00A6DB; font-size: 75px; margin-bottom: 15px; font-weight: bold; line-height: 1; }
 
 /*----------header----------*/
 .header { position: relative; overflow: hidden; background: url(../img/top_block_bg.jpg) no-repeat center top; height: 930px; margin-bottom: 70px; }
 .header .container { padding-top: 100px; }
 .header .btn_wrap { clear: both; margin-left: 105px; float: left; margin-top: -15px; }
+.header .video_wrap { float: right; }
 
 .logo { margin-left: 20px; float: left; }
 
@@ -114,7 +119,8 @@ body { font-family: "Utsaah"; font-size: 28px; color: #333333; line-height: 1.2;
 .about_list { clear: both; float: left; margin-top: 50px; }
 .about_list li { color: #FEFEFE; margin-bottom: 25px; padding-left: 30px; background: url(../img/icons/white-marker.png) no-repeat left 8px; font-size: 42px; line-height: 1; }
 
-.video_wrap { float: right; }
+.video_wrap { width: 604px; height: 402px; }
+.video_wrap iframe { width: 100%; height: 100%; }
 
 .btn_wrap { padding: 10px; border-radius: 25px; background: transparent; border: 2px solid #FF8A24; display: inline-block; }
 
@@ -126,12 +132,17 @@ body { font-family: "Utsaah"; font-size: 28px; color: #333333; line-height: 1.2;
 /*----------main----------*/
 .main { position: relative; overflow: hidden; }
 
-.about_icons { text-align: center; padding-bottom: 60px; border-bottom: 2px solid #00A6DB; }
+.about_icons { text-align: center; padding-bottom: 60px; border-bottom: 2px solid #00A6DB; margin-bottom: 85px; }
 .about_icons li { width: 22%; margin-right: 3%; display: inline-block; vertical-align: top; }
 .about_icons li:last-child { margin-right: 0; }
 .about_icons img { margin-bottom: 30px; }
 .about_icons strong { color: #00A6DB; font-size: 34px; margin-bottom: 15px; display: block; }
 .about_icons p { text-align: left; }
+
+.how_works_wrap { padding-bottom: 100px; margin-bottom: 90px; border-bottom: 2px solid #00A6DB; overflow: hidden; }
+.how_works_wrap .video_wrap { float: left; margin-top: 20px; }
+
+.how_works_inner { float: right; max-width: 530px; }
 
 /*----------end main----------*/
 /*----------footer----------*/

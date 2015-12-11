@@ -14,7 +14,20 @@ body {
 	font-family: $font_r;
 	font-size: 28px;
 	color: $color_dark;
-	line-height: 1.2;
+	line-height: 1;
+}
+p {
+	color: $color_dark;
+	font-size: 28px;
+	line-height: 1;
+	margin-bottom: 20px;
+}
+.title {
+	color:#00A6DB;
+	font-size: 75px;
+	margin-bottom: 15px;
+	font-weight: bold;
+	line-height: 1;
 }
  /*----------header----------*/
 
@@ -31,6 +44,9 @@ body {
 		margin-left: 105px;
 		float: left;
 		margin-top: -15px;
+	}
+	.video_wrap {
+		float: right;
 	}
  }
 		.logo {
@@ -69,7 +85,12 @@ body {
 			}
 		}
 		.video_wrap {
-			float: right;
+			width: 604px;
+			height: 402px;
+			iframe{
+				width: 100%;
+				height: 100%;
+			}
 		}
 		.btn_wrap {
 			padding: 10px;
@@ -112,6 +133,7 @@ body {
 	text-align: center;
 	padding-bottom: 60px;
 	border-bottom: 2px solid #00A6DB;
+	margin-bottom: 85px;
 	li {
 		width: 22%;
 		margin-right: 3%;
@@ -135,6 +157,24 @@ body {
 	}
 }
 //end about_icons
+
+//how_works_wrap
+.how_works_wrap {
+	padding-bottom: 100px;
+	margin-bottom: 90px;
+	border-bottom: 2px solid #00A6DB;
+	overflow: hidden;
+	.video_wrap {
+		float: left;
+		margin-top: 20px;
+	}
+}
+	.how_works_inner {
+		float: right;
+		max-width: 530px;
+	}
+
+//end how_works_wrap
 
 /*----------end main----------*/	
 
